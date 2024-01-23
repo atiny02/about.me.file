@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+h1
+  {
+    color:brown;
+
+  }
+
+h2
+{
+    color:black;
+}
+
+   {
+    color:crimson;
+   }
+
+.header   
+   {
+    background-color:lightsalmon;
+    padding: 10px;
+    padding-left: 460px;
+    padding-right: 300px;
+    border-radius: 20px;
+    border: 3px solid brown;
+    word-spacing: 20px;
+    
+    
+   
+   }
+
+   a
+    {
+       color:darkred; 
+       text-decoration:none;
+       margin-right:40px;
+       font-family:'Bebas Neue', sans-serif;
+       font-size:14pt;
+    }
+
+    a:hover
+        {
+            color:red;
+        }
+
+    .kotak1
+        {
+           
+            background-color: rgb(220, 185, 139);
+            width:70%;
+            height:550px;
+            float:left;
+            margin-top: 60px;
+            margin-left: 200px;
+        }
+
+    .kotak2
+        {
+           
+            background-color: darkgray;
+            width:95%;
+            height:300px;
+            float:left;
+            margin-top: 60px;
+            margin-left: 30px;
+            text-align: center;
+            font-size: 14px;
+           
+            
+        }
+    .kotak3
+        {
+            background-color: lightcoral;
+            width:95%;
+            height:300px;
+            float:left;
+            margin-top: 60px;
+            margin-left: 30px;
+            text-align: center;
+            font-size: 14px;
+           
+        }    
+
+    .kotak4
+        {
+           
+            background-color: darkkhaki;
+            width:95%;
+            height:300px;
+            float:left;
+            margin-top: 60px;
+            margin-left: 30px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+    .kotak5
+        {
+           
+            background-color: lightpink;
+            width:95%;
+            height:300px;
+            float:left;
+            margin-top: 60px;
+            margin-left: 30px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .kotak6
+        {
+           
+            background-color: rgb(208, 173, 120);
+            width:60%;
+            height:900px;
+            margin-top: 60px;
+            margin-left: 300px;
+        }
+
+        table,tr,td,th
+        {
+            border: 1px solid black;
+            border-collapse:collapse;
+            padding:10px; 
+        }
+    
+        th
+            {
+                background-color:maroon;
+                color:pink;
+            }
+        tr
+            {
+                background-color:lightcoral;
+    
+            }
+        
+        tr:nth-child(even)
+        {
+            background-color:beige;
+        }
+    
+       tr:hover
+            {
+                background-color:peru;
+            }
+
+            .container {
+                max-width: 400px;
+                background-color: #ebc6c6;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+      
+            label {
+                display: block;
+                margin-bottom: 8px;
+            }
+      
+            input, textarea {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 16px;
+                box-sizing: border-box;
+            }
+      
+            button {
+                background-color: #4caf50;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+      
+            button:hover {
+                background-color: #45a049;
+            }
